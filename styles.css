@@ -16,6 +16,11 @@ header {
     z-index: 1;
 }
 
+iframe {
+    width: min(90vw, 560px);
+    height: 315px;
+}
+
 #header-img {
     width: 300px;
     height: 30px;
@@ -55,6 +60,7 @@ main {
     padding-top: 50px;
     z-index: -1;
 }
+
 
 #form {
     text-align: center;
@@ -139,6 +145,7 @@ p {
     background-color: #F1C40F;
     border: none;
     font-weight: normal;
+
     margin: 24px auto;
     padding: 10px 20px;
 }
@@ -233,10 +240,7 @@ footer {
         padding-top: 125px;
     }
 
-    #Pricing {
-        grid-template-columns: 0.21fr 0.58fr 0.21fr;
-    }
-
+   
     #Features i {
         display: none;
     }
