@@ -254,5 +254,10 @@ footer {
         padding-left: 0;
         margin-left: 0;
     }
+    
+    #Pricing {
+        grid-template-columns: 0.2fr 0.6fr 0.2fr;
+    }
+
 
 }
