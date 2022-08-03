@@ -225,11 +225,11 @@ footer {
     header {
         display: flex;
         flex-direction: column;
-        height: 125px;
+        height: 135px;
     }
 
     #nav-bar {
-        padding-bottom: 5px;
+        padding-bottom: 15px;
     }
 
     main {
@@ -237,7 +237,7 @@ footer {
     }
 
     section {
-        padding-top: 125px;
+        padding-top: 135px;
     }
 
    
@@ -254,10 +254,9 @@ footer {
         padding-left: 0;
         margin-left: 0;
     }
-    
-    #Pricing {
-        grid-template-columns: 0.2fr 0.6fr 0.2fr;
-    }
 
+    #Pricing {
+        grid-template-columns: 0.15fr 0.7fr 0.15fr;
+    }
 
 }
