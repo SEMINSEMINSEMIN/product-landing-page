@@ -145,7 +145,7 @@ p {
     background-color: #F1C40F;
     border: none;
     font-weight: normal;
-
+    width: 50%;
     margin: 24px auto;
     padding: 10px 20px;
 }
